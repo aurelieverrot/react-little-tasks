@@ -1,10 +1,16 @@
+#title {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 100px;
+  color: rgba(60, 60, 60, 90);
+}
+
 ul.taskList {
-  padding: 0 25px;
+  /*width: 100%;*/
 }
 
 li.task {
   list-style-type: none;
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 1.2em;
   padding: 10px;
   border-bottom: 1px solid #ccc;
@@ -17,7 +23,7 @@ input[placeholder] {
 }
 
 .container {
-  width: 40%;
+  width: 80%;
   height: 400px;
   position: relative;
   margin: 0 auto;
@@ -25,10 +31,8 @@ input[placeholder] {
 }
 
 .header {
-  color: black;
   padding: 5px;
   text-align: center;
-  font-family: Tahoma, sans-serif;
 }
 
 .inputContainer {
@@ -39,12 +43,11 @@ input[placeholder] {
 .inputContainer .taskInput {
   padding: 10px;
   width: 100%;
-  border-radius: 25px;
   box-sizing: border-box;
 }
 
-.listWrapper {
-  position: absolute;
+.tasksWrapper {
+  width: 100%;
   bottom: 50px;
   top: 160px;
   right: 0;
@@ -52,8 +55,6 @@ input[placeholder] {
   overflow: auto;
 }
 
-.addTaskBtn {
-  padding: 4px 12px 4px 12px;
-  margin-top: 6px;
-  float: right;
+.doneTaskBtn .deleteTaskBtn {
+  /*align-items: flex-end;*/
 }
